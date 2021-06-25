@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>desafio 06 form</title>
+</head>
+<body>
+    <center>
+        <h1>Bem Vindo a <a href="desafio06main.html">Escola Tech</a></h1>
+    </center>
+    <p>Preencha abaixo sua ficha de matricula e aguarde entraremos em para confirmação do inicio das aulas.</p>
+    <form method="" action="">
+        <br><label for="foto"><b>(opcional)</b>Anexar uma foto</label>
+        <input type="file" name="" id="foto">
+        <br>
+        <br><label for="nome">Nome do aluno</label>
+        <input type="text" name="" id="nome" size="100" maxlength="100">
+        <br><label for="nascimento">Data de nascimento</label>
+        <input type="date" name="" id="Nascimento">
+        <br><label for="telefone">Telefone celular:</label>
+        <input type="tel" name="" id="telefone">
+        <br>
+        <br><label for="email">Endereço de email</label>
+        <input type="email" name="" id="email" size="100" maxlength="100">
+        <br><label for="senha">sua senha de acesso será o endereço eletronico informado defina agora uma senha</label>
+        <input type="password" name="" id="senha">
+        <br>
+        <br><label for="curso"> Selecione o curso</label>
+        <select name="" id="curso">
+            <option value="c"> Programação C++</option>
+            <option value="java"> Programação java</option>
+            <option value="javasccript"> Programação web com javascript</option>
+            <option value="frameworks"> Estudo de frameworks para web</option>
+            <option value="usabilidade"> usabilidade em websites</option>
+        </select>
+        <br> <label> No curso selecionado em qual nivel de conhecimento você se considera</label>
+        <input type="radio" name="cur" value="ini"> iniciante
+        <input type="radio" name="cur" value="int"> intermediario
+        <input type="radio" name="cur" value="ava"> avançado
+        <br>
+        <br><input type="submit" value="Enviar dados">
+    </form>
+</body>
+</html>
